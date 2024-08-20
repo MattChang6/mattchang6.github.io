@@ -1,0 +1,30 @@
+/* Ensure the entire page has the same background color */
+.homeContainer {
+    background-color: #233746;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive background section */
+.background {
+    font-size: calc(10px + 2vmin);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Center the logo and set a maximum width */
+.whiteLogo {
+    max-width: 500px; /* Adjust the max-width as needed */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.whiteLogo img {
+    width: 100%;
+    height: auto;
+}
