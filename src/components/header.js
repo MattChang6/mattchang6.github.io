@@ -1,19 +1,38 @@
 import React, { useState } from "react";
-import { Link, Route, Routes } from "react-router-dom";
-import { Home } from '../pages/home';
+import { Link } from "react-router-dom";
+import './header.css';
 
 const Header = () => {
-    const [showDropdown1, setShowDropdown1] = useState(false);
-    const [showDropdown2, setShowDropdown2] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    return(
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    const closeMobileMenu = () => {
+        setIsMobileMenuOpen(false);
+    };
+
+    return (
         <>
-         <div style={{ display: 'inline' }}>
+            <div style={{ display: 'inline' }}>
                 <nav className="Nav">
-                    <Link to="/"><img className="logoNav" src={require("./images/logos/Primary Logo/JC Primary Logo_7546C.png")} alt="Logo" /></Link>
-                    <span className="header">
-                        <Link to="/">Home</Link>&emsp;
-
+                    <Link to="/" onClick={closeMobileMenu}>
+                        <img className="logoNav" src={require("./images/logos/Primary Logo/JC Primary Logo_7546C.png")} alt="Logo" />
+                    </Link>
+                    <div className={`header ${isMobileMenuOpen ? 'open' : ''}`}>
+                        <span className="closebtn" onClick={closeMobileMenu}>&times;</span>
+                        <Link to="/" onClick={closeMobileMenu}>Home</Link>
+                        <Link to="/services" onClick={closeMobileMenu}>Services</Link>
+                        <Link to="/resources" onClick={closeMobileMenu}>Resources</Link>
+                        <Link to="/Contact" onClick={closeMobileMenu}>Contact</Link>
+                    </div>
+                    <div className="hamburger" onClick={toggleMobileMenu}>
+                        &#9776; {/* Hamburger icon */}
+                    </div>
+                </nav>
+            </div>
+                                    {/*
                         <div 
                             className="dropdown"
                             onMouseEnter={() => setShowDropdown1(true)}
@@ -24,13 +43,10 @@ const Header = () => {
                                 <div className="dropdown-content">
                                     <Link to="/route1">Route 1</Link>
                                     <Link to="/route2">Route 2</Link>
-                                    {/* Add more links as needed */}
                                 </div>
-                            )}
+                            )
                         </div>&emsp;
-
-                        <Link to="/page1">Page 1</Link>&emsp;
-
+                        
                         <div 
                             className="dropdown"
                             onMouseEnter={() => setShowDropdown2(true)}
@@ -41,18 +57,11 @@ const Header = () => {
                                 <div className="dropdown-content">
                                     <Link to="/route3">Route 3</Link>
                                     <Link to="/route4">Route 4</Link>
-                                    {/* Add more links as needed */}
                                 </div>
                             )}
-                        </div>&emsp;
-
-                        <Link to="/page2">Page 2</Link>
-                    </span>
-                </nav>
-            </div>
-
+                        </div>&emsp;*/}
         </>
-    )
+    );
 }
 
 export default Header;
