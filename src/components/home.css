@@ -26,28 +26,3 @@
     margin-left: auto;
     margin-right: auto;
 }
-
-/* Under Construction site
-
-.homeContainer {
-    background-color: #233746;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.whiteLogo {
-    max-width: 500px;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.whiteLogo img {
-    width: 100%;
-    height: auto;
-}
-*/
