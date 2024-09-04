@@ -1,4 +1,5 @@
 import '../components/resources.css';
+import ContactForm from "../components/contactForm.jsx";
 
 export function Resources() {
     return (
@@ -15,6 +16,7 @@ export function Resources() {
             <a className="resource-link" href="https://www.ssa.gov/" target="_blank" rel="noreferrer">Social Security</a><br />
             <br />
         </div>
+        <ContactForm />
         </>
     );
 }
