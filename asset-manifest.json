@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/mattchang6.github.io/static/css/main.9486d64f.css",
-    "main.js": "/mattchang6.github.io/static/js/main.186015e7.js",
+    "main.css": "/mattchang6.github.io/static/css/main.b82fcbd0.css",
+    "main.js": "/mattchang6.github.io/static/js/main.50c94ce7.js",
     "static/js/453.dfcb587c.chunk.js": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js",
+    "static/media/beach.jpg": "/mattchang6.github.io/static/media/beach.b5682cd93b8cc5671534.jpg",
+    "static/media/book.png": "/mattchang6.github.io/static/media/book.809153543d092d499f70.png",
     "static/media/JC Primary Logo_7546C.png": "/mattchang6.github.io/static/media/JC Primary Logo_7546C.fc4e8f22824934fce9c4.png",
-    "static/media/JC Primary Logo_black.png": "/mattchang6.github.io/static/media/JC Primary Logo_black.1acb60fd1d22efcf15b1.png",
     "static/media/JC Primary Logo_white.png": "/mattchang6.github.io/static/media/JC Primary Logo_white.624ccb04fc433a9a7333.png",
     "index.html": "/mattchang6.github.io/index.html",
-    "main.9486d64f.css.map": "/mattchang6.github.io/static/css/main.9486d64f.css.map",
-    "main.186015e7.js.map": "/mattchang6.github.io/static/js/main.186015e7.js.map",
+    "main.b82fcbd0.css.map": "/mattchang6.github.io/static/css/main.b82fcbd0.css.map",
+    "main.50c94ce7.js.map": "/mattchang6.github.io/static/js/main.50c94ce7.js.map",
     "453.dfcb587c.chunk.js.map": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9486d64f.css",
-    "static/js/main.186015e7.js"
+    "static/css/main.b82fcbd0.css",
+    "static/js/main.50c94ce7.js"
   ]
 }
