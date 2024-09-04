@@ -4,22 +4,19 @@ import Swal from 'sweetalert2';
 import './contactForm.css';
 
 const ContactForm = () => {
-    const [captchaVerified, setCaptchaVerified] = useState(false); // CAPTCHA state
-    const [isSubmitting, setIsSubmitting] = useState(false); // Form submission state
-
+    const [captchaVerified, setCaptchaVerified] = useState(false);
+    
     const onSubmit = async (event) => {
         event.preventDefault();
-
+        
         if (!captchaVerified) {
             Swal.fire({
-                title: "Error",
-                text: "Please complete the CAPTCHA before submitting the form.",
-                icon: "error",
+                title: "CAPTCHA not verified!",
+                text: "Please complete the CAPTCHA before submitting.",
+                icon: "error"
             });
             return;
         }
-
-        setIsSubmitting(true);  // Disable submit button during submission
 
         const formData = new FormData(event.target);
         formData.append("access_key", "2c837d43-8d0e-4e23-b3cc-9a613e63b083");
@@ -36,7 +33,7 @@ const ContactForm = () => {
                 },
                 body: json
             });
-
+            
             const result = await res.json();
 
             if (result.success) {
@@ -47,25 +44,24 @@ const ContactForm = () => {
                 });
             } else {
                 Swal.fire({
-                    title: "Oops!",
-                    text: "Something went wrong. Please try again later.",
+                    title: "Submission Failed",
+                    text: "There was an issue with your submission.",
                     icon: "error"
                 });
             }
         } catch (error) {
             Swal.fire({
-                title: "Error",
-                text: "There was a problem with the submission. Please try again later.",
-                icon: "error",
+                title: "Submission Error",
+                text: "There was a problem submitting the form.",
+                icon: "error"
             });
-        } finally {
-            setIsSubmitting(false);  // Re-enable the submit button after submission
         }
     };
 
     const handleCaptcha = (value) => {
+        console.log("Captcha value:", value);  // Debugging: check if the captcha passes
         if (value) {
-            setCaptchaVerified(true); // If CAPTCHA is verified, enable form submission
+            setCaptchaVerified(true);  // Enable the submit button if CAPTCHA is verified
         }
     };
 
@@ -83,15 +79,13 @@ const ContactForm = () => {
                </div>
                <div className='input-box'>
                     <label>Your Message</label>
-                    <textarea name='message' id='' className='field message' placeholder='Enter your message' required />
+                    <textarea name='message' className='field message' placeholder='Enter your message' required />
                </div>
                <ReCAPTCHA sitekey='6LcF0jYqAAAAALLwG0E3wHDZu1tel2n_FQ70d54X' onChange={handleCaptcha} />
-               <button type='submit' disabled={!captchaVerified || isSubmitting}>
-                   {isSubmitting ? 'Submitting...' : 'Send'}
-               </button>
+               <button type='submit' disabled={!captchaVerified}>Send</button>
             </form>
         </section>
     );
-}
+};
 
 export default ContactForm;
