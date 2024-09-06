@@ -22,6 +22,10 @@
     margin: 0 10px;
 }
 
+.col1{
+    padding-right: 7%;
+}
+
 .heading {
     font-weight: bold;
     margin-bottom: 15px;

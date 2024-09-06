@@ -2,11 +2,12 @@
   background-color: rgb(255, 255, 255);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: flex;
-  justify-content: space-between; /* Logo on the left, nav links on the right */
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 20px; /* Adds padding to the sides */
-  position: relative;
-  z-index: 2; /* Ensure the nav bar is above other content */
+  padding: 0 20px; 
+  z-index: 2;
 }
 
 .logoNav {

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="box">
             <div className="footer-container">
                 <div className="row">
-                <div className="column">
+                <div className="column col1">
                     <Link to="/"> <img className="footer-logo" src={require('../components/images/logos/Primary Logo/JC Primary Logo_white.png')} alt="jc logo"></img></Link>
                     <p className="footer-info">PO Box 7144<br />Porter Ranch, CA 91327</p>
                     <p className="footer-info"><strong>Phone: </strong>818-851-8107</p>
@@ -34,7 +34,7 @@ const Footer = () => {
                     <a className="footer-link" href="https://proadvisor.intuit.com/app/accountant/search?searchId=jay-chang" target="_blank" rel="noreferrer">
                         Quickbooks
                     </a>
-                    <a className="footer-link" href="https://verifyle.com/" target="_blank" rel="noreferrer">
+                    <a className="footer-link" href="https://verifyle.com/@jaychangcpa" target="_blank" rel="noreferrer">
                         Verifyle
                     </a>
                 </div>

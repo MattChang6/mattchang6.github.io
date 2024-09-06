@@ -1,22 +1,43 @@
 import '../components/resources.css';
-import ContactForm from "../components/contactForm.jsx";
 
 export function Resources() {
     return (
         <>
         <div>
             <h1 className="resource-title">Resources</h1>
-            <a className="resource-link" href="https://www.irs.gov/" target="_blank" rel="noreferrer">IRS</a><br />
-            <a className="resource-link" href="https://proadvisor.intuit.com/app/accountant/search?searchId=jay-chang" target="_blank" rel="noreferrer">
-                        Quickbooks
-                    </a><br />
-            <a className="resource-link" href="https://verifyle.com/" target="_blank" rel="noreferrer">
-                Verifyle
-            </a><br />
-            <a className="resource-link" href="https://www.ssa.gov/" target="_blank" rel="noreferrer">Social Security</a><br />
-            <br />
+            <div>
+                <div className='resource-grid'>
+                    <div className='item1-b2'>
+                        <p className='resource-description'>Internal Revenue Service<br />
+                        <a className='resource-link' href='https://www.irs.gov/' target='_blank' rel="noreferrer">https://www.irs.gov/</a></p>
+                    </div>
+                    <div className='item1-b2'>
+                    <p className='resource-description'>Social Security<br />
+                    <a className='resource-link' href='https://www.ssa.gov/' target='_blank' rel="noreferrer">https://www.ssa.gov/</a></p>
+                    </div>
+                    <div className='item1-b2'>
+                    <p className='resource-description'>Quickbooks<br />
+                    <a className='resource-link' href='https://proadvisor.intuit.com/app/accountant/search?searchId=jay-chang' target='_blank' rel="noreferrer">Link</a></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className='resource-grid'>
+                    <div className='item1-b2'>
+                        <p className='service-subtitle'>Verifyle</p>
+                        <p className='service-description'></p>
+                    </div>
+                    <div className='item1-b2'>
+                        <p className='service-subtitle'>Link Title</p>
+                        <p className='service-description'></p>
+                    </div>
+                    <div className='item1-b2'>
+                        <p className='service-subtitle'>Link Title</p>
+                        <p className='service-description'></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ContactForm />
         </>
     );
 }

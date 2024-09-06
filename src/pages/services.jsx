@@ -4,23 +4,10 @@ export function Services() {
     return (
         <>
         <div>
-            <p className="services-title"><strong>Services</strong></p>
+            <h1 className="services-title"><strong>Services</strong></h1>
         </div>
         <div className="service-area">
-            <div className="each-service">
-                <div className="title">
-                    <h2>Tax Services</h2>
-                </div>
-                <div className="content">
-                    <ul>
-                        <li>Federal tax preparation for Individuals and Businesses</li>
-                        <li>State income tax filings</li>
-                        <li>Sales tax filings</li>
-                        <li>Payroll services and related taxes</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="each-service">
+        <div className="each-service">
                 <div className="title">
                     <h2>Bookkeeping</h2>
                 </div>
@@ -36,6 +23,19 @@ export function Services() {
                         <li>Sales Tax Forms</li>
                         <li>Business Tax Forms</li>
                         <li>Year-End 1099 Forms</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="each-service">
+                <div className="title">
+                    <h2>Tax Services</h2>
+                </div>
+                <div className="content">
+                    <ul>
+                        <li>Federal tax preparation for Individuals and Businesses</li>
+                        <li>State income tax filings</li>
+                        <li>Sales tax filings</li>
+                        <li>Payroll services and related taxes</li>
                     </ul>
                 </div>
             </div>

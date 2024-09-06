@@ -32,34 +32,6 @@ const Header = () => {
                     </div>
                 </nav>
             </div>
-                                    {/*
-                        <div 
-                            className="dropdown"
-                            onMouseEnter={() => setShowDropdown1(true)}
-                            onMouseLeave={() => setShowDropdown1(false)}
-                        >
-                            <span className="dropbtn">Dropdown 1</span>
-                            {showDropdown1 && (
-                                <div className="dropdown-content">
-                                    <Link to="/route1">Route 1</Link>
-                                    <Link to="/route2">Route 2</Link>
-                                </div>
-                            )
-                        </div>&emsp;
-                        
-                        <div 
-                            className="dropdown"
-                            onMouseEnter={() => setShowDropdown2(true)}
-                            onMouseLeave={() => setShowDropdown2(false)}
-                        >
-                            <span className="dropbtn">Dropdown 2</span>
-                            {showDropdown2 && (
-                                <div className="dropdown-content">
-                                    <Link to="/route3">Route 3</Link>
-                                    <Link to="/route4">Route 4</Link>
-                                </div>
-                            )}
-                        </div>&emsp;*/}
         </>
     );
 }
