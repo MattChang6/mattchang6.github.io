@@ -52,7 +52,7 @@ export function Home() {
             daily, weekly, and yearly financial challenges of running a small business</p>
         </div>
       </div>
-      <button type='button' className='learn-more-btn'><a className='a-btn' href='#/services'>Learn More</a></button>
+      <a type='button' className='learn-more-btn a-btn' href='#/services'>Learn More</a>
     </div>
     
 

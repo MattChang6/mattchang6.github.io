@@ -140,6 +140,8 @@
 .a-btn {
     text-decoration: none;
     color: white;
+    min-width: 8%;
+    max-width: 10%;
 }
 
 
