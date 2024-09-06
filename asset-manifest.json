@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/mattchang6.github.io/static/css/main.cb4e94cc.css",
-    "main.js": "/mattchang6.github.io/static/js/main.a7a4301e.js",
+    "main.css": "/mattchang6.github.io/static/css/main.08f83f99.css",
+    "main.js": "/mattchang6.github.io/static/js/main.414f619f.js",
     "static/js/453.dfcb587c.chunk.js": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js",
-    "static/media/beach.jpg": "/mattchang6.github.io/static/media/beach.b5682cd93b8cc5671534.jpg",
-    "static/media/book.png": "/mattchang6.github.io/static/media/book.809153543d092d499f70.png",
+    "static/media/accounting-desk.jpg": "/mattchang6.github.io/static/media/accounting-desk.f26c2517e1be80ba0884.jpg",
+    "static/media/business.jpg": "/mattchang6.github.io/static/media/business.66bc019cd6ebd54a5dcd.jpg",
     "static/media/JC Primary Logo_7546C.png": "/mattchang6.github.io/static/media/JC Primary Logo_7546C.fc4e8f22824934fce9c4.png",
     "static/media/JC Primary Logo_white.png": "/mattchang6.github.io/static/media/JC Primary Logo_white.624ccb04fc433a9a7333.png",
+    "static/media/1040.png": "/mattchang6.github.io/static/media/1040.c9d1c214252ef47bd886.png",
+    "static/media/book.jpg": "/mattchang6.github.io/static/media/book.a17582971af6e67a2d2c.jpg",
+    "static/media/handshake.jpg": "/mattchang6.github.io/static/media/handshake.7ef079278520d692d90f.jpg",
     "index.html": "/mattchang6.github.io/index.html",
-    "main.cb4e94cc.css.map": "/mattchang6.github.io/static/css/main.cb4e94cc.css.map",
-    "main.a7a4301e.js.map": "/mattchang6.github.io/static/js/main.a7a4301e.js.map",
+    "main.08f83f99.css.map": "/mattchang6.github.io/static/css/main.08f83f99.css.map",
+    "main.414f619f.js.map": "/mattchang6.github.io/static/js/main.414f619f.js.map",
     "453.dfcb587c.chunk.js.map": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4e94cc.css",
-    "static/js/main.a7a4301e.js"
+    "static/css/main.08f83f99.css",
+    "static/js/main.414f619f.js"
   ]
 }
