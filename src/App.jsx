@@ -15,15 +15,15 @@ function App() {
 	return (
 		<>
 		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-		{/*<Construction />*/}
-		<Header />
+		<Construction />
+		{/*<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/resources" element={<Resources />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/services" element={<Services />} />
 			</Routes>
-		<Footer />
+		<Footer />*/}
 		</>
 	);
 }
