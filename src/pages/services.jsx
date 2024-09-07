@@ -4,10 +4,10 @@ export function Services() {
     return (
         <>
         <div>
-            <h1 className="services-title"><strong>Services</strong></h1>
+            <h1 className="services-title"><strong>Our Services</strong></h1>
         </div>
         <div className="service-area">
-        <div className="each-service">
+            <div className="each-service">
                 <div className="title">
                     <h2>Bookkeeping</h2>
                 </div>
@@ -56,7 +56,12 @@ export function Services() {
                     </ul>
                 </div>
             </div>
+        </div>
 
+        <div className='service-grid'>
+        <img src={require('../components/images/qb adv.png')} alt="quickbooks adv logo" className='qb-adv-img' />
+        <img src={require('../components/images/calcpa logo.png')} alt="cal cpa logo" className='cal-cpa-img' />
+        <img src={require('../components/images/aicpa-cima.png')} alt="quickbooks adv logo" className='cal-cpa-img' />
         </div>
         </>
     );

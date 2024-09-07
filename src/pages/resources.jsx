@@ -24,8 +24,8 @@ export function Resources() {
             <div>
                 <div className='resource-grid'>
                     <div className='item1-resource'>
-                        <p className='service-subtitle'>Verifyle</p>
-                        <p className='service-description'></p>
+                        <p className='resource-description'>Verifyle<br />
+                        <a className='resource-link' href='https://verifyle.com/@jaychangcpa' target='_blank' rel="noreferrer">Link</a></p>
                     </div>
                     <div className='item1-resource'>
                         <p className='service-subtitle'>Link Title</p>

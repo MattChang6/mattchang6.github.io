@@ -1,7 +1,16 @@
-.contact-center {
-    text-align: center;
-}
-
 .form-background {
     background-color: #e1edf7;
+}
+
+.team {
+    text-align: center;
+    display: grid;
+    max-width: 2000px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 10%;
+}
+
+.contact-center {
+    text-align: center;
 }

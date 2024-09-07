@@ -35,7 +35,7 @@
 
 .beyond-balance-sheets {
     white-space: pre-wrap;
-    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    font-size: calc((2) * 1.2vw + 1rem);
     font-family: 'Almarai';
 }
 
