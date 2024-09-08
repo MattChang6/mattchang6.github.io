@@ -6,7 +6,7 @@ import { phoneFormat } from './phone.js'; // Import the phone format function
 
 const ContactForm = () => {
     const [phone, setPhone] = useState(""); // State to store phone input
-    const [captchaToken, setCaptchaToken] = useState("38600b22-07e0-4c12-86a0-033e8f620a20"); // State to store captcha token
+    const [captchaToken, setCaptchaToken] = useState(""); // State to store captcha token
     const [isCaptchaVerified, setIsCaptchaVerified] = useState(false); // Track if captcha is verified
 
     const onSubmit = async (event) => {
@@ -94,7 +94,7 @@ const ContactForm = () => {
                     <p>* Required</p>
                 </div>
                 <HCaptcha
-                    sitekey="2c837d43-8d0e-4e23-b3cc-9a613e63b083"
+                    sitekey="38600b22-07e0-4c12-86a0-033e8f620a20"
                     onVerify={handleCaptchaSuccess}
                 />
                 <button type='submit' className='roboto-mono-font' disabled={!isCaptchaVerified}>Send</button>

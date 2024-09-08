@@ -31,7 +31,7 @@ export function Contact() {
                 <p><strong>Email: </strong>suek@jaychangcpa.com</p>
                 <p><strong>Phone: </strong> 818-357-3942</p>
             </div>
-        </div>
+        </div><br />
         <div className='form-background'>
             <ContactForm />
         </div>

@@ -34,10 +34,11 @@ const Footer = () => {
                     <a className="footer-link" href="https://verifyle.com/@jaychangcpa" target="_blank" rel="noreferrer">
                         Upload Documents
                     </a>
+                    </div>
                 </div>
             </div>
+            <h4 className="copyright">&#169;2024 Jay Chang & Associates</h4>
         </div>
-    </div>
     );
 };
 
