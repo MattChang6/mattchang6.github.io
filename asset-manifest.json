@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/mattchang6.github.io/static/css/main.e8c2da73.css",
-    "main.js": "/mattchang6.github.io/static/js/main.98cbb396.js",
+    "main.css": "/mattchang6.github.io/static/css/main.0085fb5b.css",
+    "main.js": "/mattchang6.github.io/static/js/main.919aad9e.js",
     "static/js/453.dfcb587c.chunk.js": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js",
     "static/media/accounting-desk.jpg": "/mattchang6.github.io/static/media/accounting-desk.f26c2517e1be80ba0884.jpg",
     "static/media/business.jpg": "/mattchang6.github.io/static/media/business.66bc019cd6ebd54a5dcd.jpg",
-    "static/media/qb adv.png": "/mattchang6.github.io/static/media/qb adv.1d33e857cda7bcd86576.png",
     "static/media/JC Primary Logo_7546C.png": "/mattchang6.github.io/static/media/JC Primary Logo_7546C.fc4e8f22824934fce9c4.png",
     "static/media/JC Primary Logo_white.png": "/mattchang6.github.io/static/media/JC Primary Logo_white.624ccb04fc433a9a7333.png",
     "static/media/1040.png": "/mattchang6.github.io/static/media/1040.c9d1c214252ef47bd886.png",
     "static/media/book.jpg": "/mattchang6.github.io/static/media/book.a17582971af6e67a2d2c.jpg",
     "static/media/handshake.jpg": "/mattchang6.github.io/static/media/handshake.7ef079278520d692d90f.jpg",
     "index.html": "/mattchang6.github.io/index.html",
-    "main.e8c2da73.css.map": "/mattchang6.github.io/static/css/main.e8c2da73.css.map",
-    "main.98cbb396.js.map": "/mattchang6.github.io/static/js/main.98cbb396.js.map",
+    "main.0085fb5b.css.map": "/mattchang6.github.io/static/css/main.0085fb5b.css.map",
+    "main.919aad9e.js.map": "/mattchang6.github.io/static/js/main.919aad9e.js.map",
     "453.dfcb587c.chunk.js.map": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8c2da73.css",
-    "static/js/main.98cbb396.js"
+    "static/css/main.0085fb5b.css",
+    "static/js/main.919aad9e.js"
   ]
 }
