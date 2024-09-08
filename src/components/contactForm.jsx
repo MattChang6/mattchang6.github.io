@@ -94,7 +94,7 @@ const ContactForm = () => {
                     <p>* Required</p>
                 </div>
                 <HCaptcha
-                    sitekey="your-site-key"
+                    sitekey="2c837d43-8d0e-4e23-b3cc-9a613e63b083"
                     onVerify={handleCaptchaSuccess}
                 />
                 <button type='submit' className='roboto-mono-font' disabled={!isCaptchaVerified}>Send</button>
