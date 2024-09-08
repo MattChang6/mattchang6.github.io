@@ -31,11 +31,8 @@ const Footer = () => {
                 </div>
                 <div className="column">
                     <p className="heading">Resources</p>
-                    <a className="footer-link" href="https://proadvisor.intuit.com/app/accountant/search?searchId=jay-chang" target="_blank" rel="noreferrer">
-                        Quickbooks
-                    </a>
                     <a className="footer-link" href="https://verifyle.com/@jaychangcpa" target="_blank" rel="noreferrer">
-                        Verifyle
+                        Upload Documents
                     </a>
                 </div>
             </div>

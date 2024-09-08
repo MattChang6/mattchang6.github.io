@@ -13,11 +13,10 @@ export function Home() {
     <div className='background-container'>
       <div className='container grid-b1'>
         <div className='item1-b1'>
-          <p className='business-accounting lato-font'>Business Accounting</p>
           <p className='beyond-balance-sheets lato-font'>Let's Make Your Business Shine, We'll Keep Your 
             Books in Line!</p>
           <p className='p-text roboto-mono-font' >We will work with your existing accounting system.  Or, 
-            we'll get you set up with our own cloud accounting system.</p>
+            we'll get you set up with our cloud accounting system.</p>
         </div>
         <div className='item2'>
           <img src={require('../components/images/accounting-desk.jpg')} alt="placeholder" className='desk-img' />
@@ -41,8 +40,8 @@ export function Home() {
           <img src={require('../components/images/1040.png')} alt="placeholder" className='service-logo' />
           <p className='service-subtitle lato-font'>Tax Preparation</p>
           <p className='service-description roboto-mono-font'>Taxes are an inescapable fact of life, but they 
-            don't have to be a headache.  JayC&A can help you navigate existing tax requirements
-             and prepare for future tax changes.</p>
+            don't have to be a headache.  JC+A can help you navigate existing tax requirements
+             and prepare for future tax changes</p>
         </div>
         <div className='item1-b2'>
           <img src={require('../components/images/handshake.jpg')} alt="placeholder" className='service-logo' />

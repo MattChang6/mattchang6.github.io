@@ -8,13 +8,14 @@ export function Contact() {
             <h1 className='contact-center lato-font'>Contact</h1>
         </div>
         <div className='contact-center lato-font'>
-            <h2>Address & Fax</h2>
+            <h2>Mailing Address & Fax</h2>
         </div>
         <div className='contact-center roboto-mono-font'>
             <p>
                 PO Box 7144<br />
                 Porter Ranch, CA 91327
             </p>
+            <p><strong>Phone: </strong>818-851-8107</p>
             <p><strong>Fax: </strong>747-202-1979</p>
         </div>
 

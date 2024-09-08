@@ -6,34 +6,56 @@ export function Resources() {
         <div>
             <h1 className="resource-title">Resources</h1>
             <div>
+                <div className='item1-resource single-resource'>
+                    <p className='single-resource-description'>Upload Files<br />
+                    <a className='resource-link' href='https://verifyle.com/@jaychangcpa' target='_blank' rel="noreferrer">https://verifyle.com/@jaychangcpa</a></p>
+                </div>
+            </div>
+            <div>
                 <div className='resource-grid'>
-                    <div className='item1-resource'>
-                        <p className='resource-description'>Internal Revenue Service<br />
-                        <a className='resource-link' href='https://www.irs.gov/' target='_blank' rel="noreferrer">https://www.irs.gov/</a></p>
+                <div className='item1-resource'>
+                        <p className='resource-description'>California Department of Tax and Fee Administration<br />
+                        <a className='resource-link' href='https://www.cdtfa.ca.gov/' target='_blank' rel="noreferrer">https://www.cdtfa.ca.gov/</a></p>
                     </div>
                     <div className='item1-resource'>
-                    <p className='resource-description'>Social Security<br />
-                    <a className='resource-link' href='https://www.ssa.gov/' target='_blank' rel="noreferrer">https://www.ssa.gov/</a></p>
-                    </div>
-                    <div className='item1-resource'>
-                    <p className='resource-description'>Quickbooks<br />
-                    <a className='resource-link' href='https://proadvisor.intuit.com/app/accountant/search?searchId=jay-chang' target='_blank' rel="noreferrer">Link</a></p>
+                        <p className='resource-description'>California Secretory of State<br />
+                        <a className='resource-link' href='https://www.sos.ca.gov/' target='_blank' rel="noreferrer">https://www.sos.ca.gov/</a></p>
                     </div>
                 </div>
             </div>
             <div>
                 <div className='resource-grid'>
                     <div className='item1-resource'>
-                        <p className='resource-description'>Verifyle<br />
-                        <a className='resource-link' href='https://verifyle.com/@jaychangcpa' target='_blank' rel="noreferrer">Link</a></p>
+                        <p className='resource-description'>California Department of Labor<br />
+                        <a className='resource-link' href='https://www.labor.ca.gov/' target='_blank' rel="noreferrer">https://www.labor.ca.gov/</a></p>
                     </div>
                     <div className='item1-resource'>
-                        <p className='service-subtitle'>Link Title</p>
-                        <p className='service-description'></p>
+                        <p className='resource-description'>California Employment Development Development Department<br />
+                        <a className='resource-link' href='https://edd.ca.gov/' target='_blank' rel="noreferrer">https://edd.ca.gov/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className='resource-grid'>
+                    <div className='item1-resource'>
+                        <p className='resource-description'>California Franchise Tax Board<br />
+                        <a className='resource-link' href='https://www.ftb.ca.gov/' target='_blank' rel="noreferrer">https://www.ftb.ca.gov/</a></p>
                     </div>
                     <div className='item1-resource'>
-                        <p className='service-subtitle'>Link Title</p>
-                        <p className='service-description'></p>
+                        <p className='resource-description'>County of Los Angeles<br />
+                        <a className='resource-link' href='https://lacounty.gov/' target='_blank' rel="noreferrer">https://lacounty.gov/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className='resource-grid'>
+                    <div className='item1-resource'>
+                        <p className='resource-description'>Internal Revenue Service<br />
+                        <a className='resource-link' href='https://www.irs.gov/' target='_blank' rel="noreferrer">https://www.irs.gov/</a></p>
+                    </div>
+                    <div className='item1-resource'>
+                        <p className='resource-description'>Social Security<br />
+                        <a className='resource-link' href='https://www.ssa.gov/' target='_blank' rel="noreferrer">https://www.ssa.gov/</a></p>
                     </div>
                 </div>
             </div>
