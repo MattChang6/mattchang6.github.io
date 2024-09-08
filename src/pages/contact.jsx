@@ -5,10 +5,12 @@ export function Contact() {
     return (
         <>
         <div>
-            <h1 className='contact-center'>Contact</h1>
+            <h1 className='contact-center lato-font'>Contact</h1>
         </div>
-        <div className='contact-center'>
+        <div className='contact-center lato-font'>
             <h2>Address & Fax</h2>
+        </div>
+        <div className='contact-center roboto-mono-font'>
             <p>
                 PO Box 7144<br />
                 Porter Ranch, CA 91327
@@ -16,8 +18,8 @@ export function Contact() {
             <p><strong>Fax: </strong>747-202-1979</p>
         </div>
 
-        <h1 className='contact-center'><br />Our Team</h1>
-        <div className='team'>
+        <h1 className='contact-center lato-font'><br />Our Team</h1>
+        <div className='team roboto-mono-font'>
             <div>
                 <h3>Jay Chang</h3>
                 <p><strong>Email: </strong>jayc@jaychangcpa.com</p>

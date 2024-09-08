@@ -1,3 +1,18 @@
+/*  Primary: #243746 
+    Secondary : #5B6670
+    Pop: #EAFC88
+*/
+
+/* FONTS */
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.roboto-mono-font {
+    font-family: 'Roboto Mono', monospace;
+}
+
 /* BOX 1 */
 .container {
     margin: 0 auto;
@@ -25,9 +40,8 @@
 }
 
 .business-accounting {
-    font-family: 'Libre Baskerville';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 1em;
     letter-spacing: "";
     font-size: calc(15px + 0.390625vw);
@@ -36,12 +50,10 @@
 .beyond-balance-sheets {
     white-space: pre-wrap;
     font-size: calc((2) * 1.2vw + 1rem);
-    font-family: 'Almarai';
 }
 
 .p-text {
     word-wrap: break-word;
-    font-family: 'Almarai';
     font-size: calc(12px + 0.390625vw);
 }
 
@@ -55,7 +67,7 @@
 
 /* BOX 2 */
 .our-services-background {
-    background-color: #233746;
+    background-color: #243746;
     color: white;
     padding-bottom: 20px;
 }
@@ -64,16 +76,14 @@
     padding-top: 2em;
     margin-top: 0;
     text-align: center;
-    font-family: 'Libre Baskerville';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 1em;
     letter-spacing: "";
     font-size: calc(15px + 0.390625vw);
 }
 
 .expert-accounting {
-    font-family: 'Serif 4';
     text-align: center;
     word-wrap: break-word;
     white-space: pre-wrap;
@@ -106,14 +116,22 @@
 }
 
 .service-subtitle {
-    font-family: 'Serif 4';
     text-align: center;
     font-size: calc(.5 * 1.2vw + 1rem);
+    margin-bottom: 0;
+}
+
+.star {
+    color: yellow;
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .service-description {
     white-space: pre-wrap;
-    font-family: 'Libre Baskerville';
     text-align: center;
     font-size: calc(.1 * 1.2vw + 1rem);
     margin-top: 3%;
@@ -149,7 +167,6 @@
 .about-title {
     white-space: pre-wrap;
     font-size: calc((1.5) * 1.2vw + 1rem);
-    font-family: 'Almarai';
 }
 
 .business-img-b2 {

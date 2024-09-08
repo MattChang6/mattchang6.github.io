@@ -1,3 +1,11 @@
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.roboto-mono-font {
+    font-family: 'Roboto Mono', monospace;
+}
+
 .form-background {
     background-color: #e1edf7;
 }

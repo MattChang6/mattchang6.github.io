@@ -42,16 +42,16 @@ const ContactForm = () => {
     return (
         <section className='contact'>
             <form onSubmit={onSubmit}>
-                <h2>Contact Form</h2>
-                <div className='input-box'>
+                <h2 className='lato-font'>Contact Form</h2>
+                <div className='input-box roboto-mono-font'>
                     <label>Full Name*</label>
                     <input type='text' className='field' placeholder='Enter your name' name='name' required />
                 </div>
-                <div className='input-box'>
+                <div className='input-box roboto-mono-font'>
                     <label>Email Address*</label>
                     <input type='email' className='field' placeholder='Enter your email' name='email' required />
                 </div>
-                <div className='input-box'>
+                <div className='input-box roboto-mono-font'>
                     <label>Phone Number*</label>
                     <input
                         type='tel'
@@ -60,15 +60,16 @@ const ContactForm = () => {
                         name='phone'
                         value={phone} // Bind the formatted phone value to input
                         onChange={handlePhoneChange} // Call handlePhoneChange on input change
+                        pattern='\([0-9]{3}\)[0-9]{3}-[0-9]{4}'
                         required
                     />
                 </div>
-                <div className='input-box'>
+                <div className='input-box roboto-mono-font'>
                     <label>Your Message*</label>
                     <textarea name='message' className='message' placeholder='Enter your message' required />
                     <p>* Required</p>
                 </div>
-                <button type='submit'>Send</button>
+                <button type='submit' className='roboto-mono-font'>Send</button>
             </form>
         </section>
     );

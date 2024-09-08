@@ -9,9 +9,9 @@ export function Services() {
         <div className="service-area">
             <div className="each-service">
                 <div className="title">
-                    <h2>Bookkeeping</h2>
+                    <h2 className='lato-font'>Bookkeeping</h2>
                 </div>
-                <div className="content">
+                <div className="content roboto-mono-font">
                     <ul>
                         <li>Record-Keeping in Computerized Bookkeeping System</li>
                         <li>Set Up of Chart of Accounts</li>
@@ -27,10 +27,10 @@ export function Services() {
                 </div>
             </div>
             <div className="each-service">
-                <div className="title">
+                <div className="title lato-font">
                     <h2>Tax Services</h2>
                 </div>
-                <div className="content">
+                <div className="content roboto-mono-font">
                     <ul>
                         <li>Federal tax preparation for Individuals and Businesses</li>
                         <li>State income tax filings</li>
@@ -40,10 +40,10 @@ export function Services() {
                 </div>
             </div>
             <div className="each-service">
-                <div className="title">
+                <div className="title lato-font">
                     <h2>Consulting</h2>
                 </div>
-                <div className="content">
+                <div className="content roboto-mono-font">
                     <ul>
                         <li>Managing cash flow, budgeting and projections</li>
                         <li>Bookkeeping & Accounting</li>
@@ -56,12 +56,6 @@ export function Services() {
                     </ul>
                 </div>
             </div>
-        </div>
-
-        <div className='service-grid'>
-        <img src={require('../components/images/qb adv.png')} alt="quickbooks adv logo" className='qb-adv-img' />
-        <img src={require('../components/images/calcpa logo.png')} alt="cal cpa logo" className='cal-cpa-img' />
-        <img src={require('../components/images/aicpa-cima.png')} alt="quickbooks adv logo" className='cal-cpa-img' />
         </div>
         </>
     );
