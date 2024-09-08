@@ -84,7 +84,7 @@ const ContactForm = () => {
                         name='phone'
                         value={phone}
                         onChange={handlePhoneChange} 
-                        pattern='\([0-9]{3}\)[0-9]{3}-[0-9]{4}'
+                        pattern='\([0-9]{3}\) [0-9]{3}-[0-9]{4}'
                         required
                     />
                 </div>
