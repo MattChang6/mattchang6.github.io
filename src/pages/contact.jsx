@@ -22,11 +22,13 @@ export function Contact() {
         <h1 className='contact-center lato-font'><br />Our Team</h1>
         <div className='team roboto-mono-font'>
             <div>
+                <img src={require('../components/images/img_male.png')} alt="placeholder" className='profile-img' />
                 <h3>Jay Chang</h3>
                 <p><strong>Email: </strong>jayc@jaychangcpa.com</p>
                 <p><strong>Phone: </strong> 818-851-8107</p>
             </div>
             <div>
+                <img src={require('../components/images/img_female.png')} alt="placeholder" className='profile-img' />
                 <h3>Sue Kim</h3>
                 <p><strong>Email: </strong>suek@jaychangcpa.com</p>
                 <p><strong>Phone: </strong> 818-357-3942</p>
