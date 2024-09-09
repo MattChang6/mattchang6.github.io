@@ -15,6 +15,9 @@ function App() {
 	return (
 		<>
 		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+		<meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self';"></meta>
+		<meta http-equiv="X-Content-Type-Options" content="nosniff"></meta>
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 		{/*<Construction />*/}
 		<Header />
 			<Routes>
