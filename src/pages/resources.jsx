@@ -6,13 +6,13 @@ export function Resources() {
         <div>
             <h1 className="resource-title lato-font">Resources</h1>
             <div>
-                <div className='item1-resource single-resource roboto-mono-font'>
+                <div className='item1-resource single-resource lato-font'>
                     <p className='single-resource-description'>Upload Files<br />
                     <a className='resource-link' href='https://verifyle.com/@jaychangcpa' target='_blank' rel="noreferrer">https://verifyle.com/@jaychangcpa</a></p>
                 </div>
             </div>
             <div>
-                <div className='resource-grid roboto-mono-font'>
+                <div className='resource-grid lato-font'>
                 <div className='item1-resource'>
                         <p className='resource-description'>California Department of Tax and Fee Administration<br />
                         <a className='resource-link' href='https://www.cdtfa.ca.gov/' target='_blank' rel="noreferrer">https://www.cdtfa.ca.gov/</a></p>
@@ -24,7 +24,7 @@ export function Resources() {
                 </div>
             </div>
             <div>
-                <div className='resource-grid roboto-mono-font'>
+                <div className='resource-grid lato-font'>
                     <div className='item1-resource'>
                         <p className='resource-description'>California Department of Labor<br />
                         <a className='resource-link' href='https://www.labor.ca.gov/' target='_blank' rel="noreferrer">https://www.labor.ca.gov/</a></p>
@@ -36,7 +36,7 @@ export function Resources() {
                 </div>
             </div>
             <div>
-                <div className='resource-grid roboto-mono-font'>
+                <div className='resource-grid lato-font'>
                     <div className='item1-resource'>
                         <p className='resource-description'>California Franchise Tax Board<br />
                         <a className='resource-link' href='https://www.ftb.ca.gov/' target='_blank' rel="noreferrer">https://www.ftb.ca.gov/</a></p>
@@ -48,7 +48,7 @@ export function Resources() {
                 </div>
             </div>
             <div>
-                <div className='resource-grid roboto-mono-font'>
+                <div className='resource-grid lato-font'>
                     <div className='item1-resource'>
                         <p className='resource-description'>Internal Revenue Service<br />
                         <a className='resource-link' href='https://www.irs.gov/' target='_blank' rel="noreferrer">https://www.irs.gov/</a></p>

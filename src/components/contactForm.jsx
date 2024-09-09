@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
-import HCaptcha from '@hcaptcha/react-hcaptcha'; // Ensure correct import
+import HCaptcha from '@hcaptcha/react-hcaptcha';
 import './contactForm.css';
-import { phoneFormat } from './phone.js'; // Import the phone format function
+import { phoneFormat } from './phone.js';
 
 const ContactForm = () => {
     const [phone, setPhone] = useState(""); // State to store phone input
@@ -18,7 +18,8 @@ const ContactForm = () => {
             Swal.fire({
                 title: "Captcha Required",
                 text: "Please complete the captcha verification.",
-                icon: "warning"
+                icon: "warning",
+                confirmButtonColor: '#243746'
             });
             return;
         }
