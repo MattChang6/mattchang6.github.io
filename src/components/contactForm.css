@@ -7,7 +7,7 @@
 }
 
 .contact {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -17,7 +17,7 @@ form {
     width: 100%;
     padding: 25px 25px 30px;
     border-radius: 8px;
-    margin: 25px;
+    box-sizing: border-box;
 }
 
 form h2 {
@@ -25,22 +25,26 @@ form h2 {
     text-align: center;
 }
 
+
 form .input-box {
     margin-top: 20px;
+
 }
 
 .input-box .field {
     width: 100%;
-    height: 35px;
+    height: 15px;
     background: transparent;
-    padding: 15px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: calc(10px + 0.390625vw);
     margin-top: 16px;
+    display: flex;
+    box-sizing: border-box;
 }
 
 .message {
     width: 100%;
-    height: 200px;
+    height: 150px;
     min-height: 100px;
     max-height: 600px;
     resize: vertical;
@@ -48,14 +52,53 @@ form .input-box {
     padding: 15px;
     font-size: 16px;
     margin-top: 16px;
+    box-sizing: border-box;
 }
 
 form button {
+    font-size: 15px;
     margin-top: 15px;
     width: 100%;
     height: 55px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    color: white;
+    background-color: #243746;
+    font-size: calc(10px + 0.390625vw);
 }
 
+.name-fields {
+    display: flex;
+    gap: 20px; /* Space between the fields */
+}
+
+.name-fields .field {
+    flex: 1; /* Make fields take equal space */
+    height: 15px;
+    background: transparent;
+    padding: 15px;
+    font-size: calc(10px + 0.390625vw);
+    margin-top: 16px;
+    box-sizing: border-box;
+}
+
+.name-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 40px; /* Space between the fields */
+    margin-top: 20px;
+}
+
+.name-box .field {
+    width: 100%; /* Full width of the grid column */
+    height: 15px;
+    background: transparent;
+    padding: 20px;
+    font-size: calc(10px + 0.390625vw);
+    margin-top: 16px;
+}
+
+button label {
+    font-size: calc(10px + 0.390625vw);
+}

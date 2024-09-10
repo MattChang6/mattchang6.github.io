@@ -1,7 +1,6 @@
 import React from "react";
 import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
-import ContactForm from "./components/contactForm.jsx";
 import { Route, Routes } from "react-router-dom";
 import { Home } from './pages/home.jsx';
 import { Resources } from './pages/resources.jsx';

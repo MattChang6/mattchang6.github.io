@@ -5,6 +5,7 @@ export function Resources() {
         <>
         <div>
             <h1 className="resource-title lato-font">Resources</h1>
+            <div className='max-width-resource'>
             <div>
                 <div className='item1-resource single-resource lato-font'>
                     <p className='single-resource-description'>Upload Files<br />
@@ -58,6 +59,7 @@ export function Resources() {
                         <a className='resource-link' href='https://www.ssa.gov/' target='_blank' rel="noreferrer">https://www.ssa.gov/</a></p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         </>

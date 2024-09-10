@@ -1,6 +1,5 @@
 .Nav {
   background-color: rgb(255, 255, 255);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: flex;
   position: sticky;
   top: 0;
@@ -15,27 +14,29 @@
   padding: 15px 0px 15px 0px;
 }
 
-.header {
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  align-items: center;
-  transition: none;
-}
-
-.header a, .dropbtn {
-  font-size: 15px;
-  padding: 10px 20px;
+.header a {
+  display: inline-block;
+  font-size: 14px;
   text-decoration: none;
   color: black;
-  background-color: transparent;
-  border: none;
-  transition: color 0.3s;
+  font-weight: 400; /* Normal font weight */
+  min-width: 80px; /* Ensures uniform width */
+  text-align: center; /* Centers text within the link */
+  margin-right: 20px; /* Adds consistent spacing between links */
 }
 
-.header a:hover, .dropbtn:hover {
-  background-color: #f1f1f144; /* Change background on hover */
-  border-color: black; /* Add border color on hover */
+.header .home-btn {
+  margin-right: 10px;
 }
+
+.header a:last-child {
+  margin-right: 0; /* Removes margin after the last link */
+}
+
+.header a:hover {
+  font-weight: 700; /* Apply bold on hover */
+}
+
 
 .dropdown-content {
   display: none;

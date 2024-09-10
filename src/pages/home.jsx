@@ -31,22 +31,22 @@ export function Home() {
       <div className='grid-b2'>
       <div className='item1-b2'>
           <img src={require('../components/images/book.jpg')} alt="placeholder" className='service-logo' />
-          <p className='service-subtitle lato-font'>Bookkeeping</p>
-          <p className='service-description roboto-mono-font'>We offer bookkeeping 
+          <p className='service-subtitle roboto-mono-font'>Bookkeeping</p>
+          <p className='service-description lato-font'>We offer bookkeeping 
             support so that your financial information is recorded correctly and you can relax 
             and focus on what is important to your business</p>
         </div>
         <div className='item1-b2'>
           <img src={require('../components/images/1040.png')} alt="placeholder" className='service-logo' />
-          <p className='service-subtitle lato-font'>Tax Preparation</p>
-          <p className='service-description roboto-mono-font'>Taxes are an inescapable fact of life, but they 
+          <p className='service-subtitle roboto-mono-font'>Tax Preparation</p>
+          <p className='service-description lato-font'>Taxes are an inescapable fact of life, but they 
             don't have to be a headache.  JC+A can help you navigate existing tax requirements
              and prepare for future tax changes</p>
         </div>
         <div className='item1-b2'>
           <img src={require('../components/images/handshake.jpg')} alt="placeholder" className='service-logo' />
-          <p className='service-subtitle lato-font'>Consulting</p>
-          <p className='service-description roboto-mono-font'>We are your partners and trusted advisors who care 
+          <p className='service-subtitle roboto-mono-font'>Consulting</p>
+          <p className='service-description lato-font'>We are your partners and trusted advisors who care 
             about you and your financial goals.  We can free up your time by taking on all the 
             daily, weekly, and yearly financial challenges of running a small business</p>
         </div>
@@ -79,7 +79,7 @@ export function Home() {
     <div className='our-services-background'>
       <div className='background-container-b3 grid-b4'>
         <div className='item1-b1'>
-          <p className='about-title lato-font'>Client Stories: Real Experiences, Real Results</p>
+          <p className='about-title lato-font'>Client Stories:<br />Real Experiences,<br />Real Results</p>
         </div>
         <div className='item2-b4'>
           <p className='service-subtitle lato-font'>s_son123</p>
@@ -108,8 +108,9 @@ export function Home() {
     <div className='background-container'>
       <div className='container grid-b5'>
         <div className='item1-b1'>
-          <p className='business-accounting lato-font'>Let's Work Together</p>
-          <p className='about-title lato-font'>Send us a message!</p>
+          <p className='business-accounting-b5 lato-font'>Contact</p>
+          <p className='about-title-b5 lato-font'>Let's Work Together</p>
+          <p className='p-text-b5 roboto-mono-font'>Send a message to find out how we can help you and your business</p>
         </div>
         <div className='item2'>
           <ContactForm />

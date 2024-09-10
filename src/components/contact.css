@@ -19,6 +19,14 @@
     padding: 0 10%;
 }
 
+.contact-title {
+    text-align: center;
+    font-size: calc(40px + 0.390625vw);
+    background-color: #243746;
+    color: white;
+    margin-bottom: 0;
+}
+
 .contact-center {
     text-align: center;
 }

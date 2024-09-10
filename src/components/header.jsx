@@ -22,10 +22,10 @@ const Header = () => {
                     </Link>
                     <div className={`header ${isMobileMenuOpen ? 'open' : ''}`}>
                         <span className="closebtn" onClick={closeMobileMenu}>&times;</span>
-                        <Link to="/" onClick={closeMobileMenu}>Home</Link>
-                        <Link to="/services" onClick={closeMobileMenu}>Services</Link>
-                        <Link to="/resources" onClick={closeMobileMenu}>Resources</Link>
-                        <Link to="/Contact" onClick={closeMobileMenu}>Contact</Link>
+                        <Link to="/" onClick={closeMobileMenu} className="home-btn">HOME</Link>
+                        <Link to="/services" onClick={closeMobileMenu}>SERVICES</Link>
+                        <Link to="/resources" onClick={closeMobileMenu}>RESOURCES</Link>
+                        <Link to="/Contact" onClick={closeMobileMenu}>CONTACT</Link>
                     </div>
                     <div className="hamburger" onClick={toggleMobileMenu}>
                         &#9776; {/* Hamburger icon */}

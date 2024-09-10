@@ -5,12 +5,16 @@ export function Contact() {
     return (
         <>
         <div>
-            <h1 className='contact-center lato-font'>Contact</h1>
+            <h1 className='contact-title lato-font'>Contact</h1>
         </div>
+        <div className='form-background'>
+            <ContactForm />
+        </div>       
+
         <div className='contact-center lato-font'>
             <h2>Mailing Address & Fax</h2>
         </div>
-        <div className='contact-center roboto-mono-font'>
+        <div className='contact-center lato-font'>
             <p>
                 PO Box 7144<br />
                 Porter Ranch, CA 91327
@@ -20,7 +24,7 @@ export function Contact() {
         </div>
 
         <h1 className='contact-center lato-font'><br />Our Team</h1>
-        <div className='team roboto-mono-font'>
+        <div className='team lato-font'>
             <div>
                 <img src={require('../components/images/img_male.png')} alt="placeholder" className='profile-img' />
                 <h3>Jay Chang</h3>
@@ -34,9 +38,7 @@ export function Contact() {
                 <p><strong>Phone: </strong> 818-357-3942</p>
             </div>
         </div><br />
-        <div className='form-background'>
-            <ContactForm />
-        </div>
+
 
         </>
     );

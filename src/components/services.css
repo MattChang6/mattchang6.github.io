@@ -6,18 +6,34 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+.background-primary {
+    background-color: #243746;
+    color: white;
+}
+
+.background-lb {
+    background-color: #e1edf7;
+}
+
+.background-gray {
+    background-color: #2f495e;
+    color: white;
+}
+
+.right-align {
+    align-self: flex-end;
+}
+
 .services-title {
     text-align: center;
-    font-size: calc(45px + 0.390625vw);
+    font-size: calc(40px + 0.390625vw);
+    background-color: #243746;
+    color: white;
 }
 
 .service-area {
-    position: relative;
     display: flex;
     width: 90%;
-    padding: 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
@@ -28,21 +44,24 @@
     width: 33%;
     padding: 0;
     margin: 0;
-    box-shadow: inset 0 0 0 1px black;
     border-radius: 35px;
 }
 
 .service-area .each-service .title {
     width: 80%;
-    height: 4rem;
+    height: 1rem;
     padding: 1rem 10%;
-    background-color: #5b667044;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
 }
 
+.content {
+    font-size: calc(12px + 0.390625vw);
+    line-height: 1.3;
+}
+
 .service-area .each-service .content {
-    padding: 0 10%;
+    padding: 10% 10%;
 }
 
 .title {

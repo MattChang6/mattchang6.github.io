@@ -4,14 +4,14 @@ export function Services() {
     return (
         <>
         <div>
-            <h1 className="services-title"><strong>Our Services</strong></h1>
+            <h1 className="services-title lato-font"><strong>Our Services</strong></h1>
         </div>
         <div className="service-area">
-            <div className="each-service">
+            <div className="each-service background-primary">
                 <div className="title">
-                    <h2 className='lato-font'>Bookkeeping</h2>
+                    <h2 className='roboto-mono-font'>Bookkeeping</h2>
                 </div>
-                <div className="content roboto-mono-font">
+                <div className="content lato-font">
                     <ul>
                         <li>Record-Keeping in Computerized Bookkeeping System</li>
                         <li>Set Up of Chart of Accounts</li>
@@ -26,11 +26,11 @@ export function Services() {
                     </ul>
                 </div>
             </div>
-            <div className="each-service">
-                <div className="title lato-font">
+            <div className="each-service background-lb right-align">
+                <div className="title roboto-mono-font">
                     <h2>Tax Services</h2>
                 </div>
-                <div className="content roboto-mono-font">
+                <div className="content lato-font">
                     <ul>
                         <li>Federal tax preparation for Individuals and Businesses</li>
                         <li>State income tax filings</li>
@@ -39,11 +39,11 @@ export function Services() {
                     </ul>
                 </div>
             </div>
-            <div className="each-service">
-                <div className="title lato-font">
+            <div className="each-service background-gray">
+                <div className="title roboto-mono-font">
                     <h2>Consulting</h2>
                 </div>
-                <div className="content roboto-mono-font">
+                <div className="content lato-font">
                     <ul>
                         <li>Managing cash flow, budgeting and projections</li>
                         <li>Bookkeeping & Accounting</li>

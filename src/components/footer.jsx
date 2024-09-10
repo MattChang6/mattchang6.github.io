@@ -30,9 +30,9 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="column">
-                    <p className="heading">Resources</p>
+                    <p className="heading">Upload Documents</p>
                     <a className="footer-link" href="https://verifyle.com/@jaychangcpa" target="_blank" rel="noreferrer">
-                        Upload Documents
+                        Verifyle
                     </a>
                     </div>
                 </div>

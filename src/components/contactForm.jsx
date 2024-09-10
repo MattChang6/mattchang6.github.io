@@ -87,49 +87,55 @@ const ContactForm = () => {
     };
 
     return (
-        <section className='contact'>
-            <form onSubmit={onSubmit}>
-                <h2 className='lato-font'>Contact Form</h2>
-                <div className='input-box roboto-mono-font'>
-                    <label>First Name*</label>
-                    <input type='text' className='field' placeholder='First Name' name='First Name' required />
-                </div>
-                <div className='input-box roboto-mono-font'>
-                    <label>Last Name*</label>
-                    <input type='text' className='field' placeholder='Last Name' name='Last Name' required />
-                </div>
-                <div className='input-box roboto-mono-font'>
-                    <label>Email Address*</label>
-                    <input type='email' className='field' placeholder='Enter your email' name='email' required />
-                </div>
-                <div className='input-box roboto-mono-font'>
-                    <label>Phone Number*</label>
-                    <input
-                        type='tel'
-                        className='field'
-                        placeholder='(123) 456-7890'
-                        name='phone'
-                        value={phone}
-                        onChange={handlePhoneChange} 
-                        pattern='\([0-9]{3}\) [0-9]{3}-[0-9]{4}'
-                        required
-                    />
-                </div>
-                <div className='input-box roboto-mono-font'>
-                    <label>Your Message*</label>
-                    <textarea name='message' className='message' placeholder='Enter your message' required />
-                    <p>* Required</p>
-                </div>
-                <HCaptcha
-                    sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-                    onVerify={handleCaptchaSuccess}
-                    onExpire={handleCaptchaExpire} // Handle expiration
-                    reCaptchaCompat={false}
-                    ref={captchaRef} // Ref to reset captcha
-                />
-                <button type='submit' className='roboto-mono-font' disabled={!isCaptchaVerified}>Send</button>
-            </form>
-        </section>
+<section className='contact'>
+    <form onSubmit={onSubmit}>
+        <div className='name-fields lato-font'>
+        <div className='name-box lato-font'>
+    <div>
+        <label>First Name*</label>
+        <input type='text' className='field' placeholder='First Name' name='First Name' required />
+    </div>
+    <div>
+        <label>Last Name*</label>
+        <input type='text' className='field' placeholder='Last Name' name='Last Name' required />
+    </div>
+</div>
+
+        </div>
+        <div className='input-box lato-font'>
+            <label>Email Address*</label>
+            <input type='email' className='field' placeholder='Enter your email' name='email' required />
+        </div>
+        <div className='input-box lato-font'>
+            <label>Phone Number*</label>
+            <input
+                type='tel'
+                className='field'
+                placeholder='(123) 456-7890'
+                name='phone'
+                value={phone}
+                onChange={handlePhoneChange} 
+                pattern='\([0-9]{3}\) [0-9]{3}-[0-9]{4}'
+                required
+            />
+        </div>
+        <div className='input-box lato-font'>
+            <label>Your Message*</label>
+            <textarea name='message' className='message' placeholder='Enter your message' required />
+            <p>* Required</p>
+        </div>
+        <HCaptcha
+            sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
+            onVerify={handleCaptchaSuccess}
+            onExpire={handleCaptchaExpire} // Handle expiration
+            reCaptchaCompat={false}
+            ref={captchaRef} // Ref to reset captcha
+        />
+        <button type='submit' className='lato-font' disabled={!isCaptchaVerified}>Send</button>
+    </form>
+</section>
+
+
     );
 };
 
