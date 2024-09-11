@@ -17,7 +17,7 @@ const Header = () => {
         <>
             <div style={{ display: 'inline' }}>
                 <nav className="Nav">
-                    <Link to="/" onClick={closeMobileMenu}>
+                    <Link className="set-link-size" to="/" onClick={closeMobileMenu}>
                         <img className="logoNav" src={require("./images/logos/Primary Logo/JC Primary Logo_7546C.png")} alt="Logo" />
                     </Link>
                     <div className={`header ${isMobileMenuOpen ? 'open' : ''}`}>

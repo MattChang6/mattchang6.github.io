@@ -87,7 +87,7 @@
 @media screen and (max-width: 768px) {
     .resource-grid {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 5.5%;
     }
 
     .single-resource {
@@ -109,6 +109,10 @@
 
     .margin-bot-0 {
         margin-bottom: 0;
+    }
+
+    .pad-bot-0 {
+        padding-bottom: 0;
     }
 }
 

@@ -7,6 +7,7 @@
   align-items: center;
   padding: 0 20px; 
   z-index: 2;
+  -webkit-tap-highlight-color:transparent;
 }
 
 .logoNav {
@@ -22,7 +23,7 @@
   font-weight: 400;
   min-width: 80px;
   text-align: center; 
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .header .home-btn {
@@ -47,6 +48,8 @@
   font-size: 30px;
   cursor: pointer;
   z-index: 3;
+  width: 20%;
+  text-align: end;
 }
 
 .closebtn {
@@ -55,6 +58,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
+      display: inline-block;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -120,14 +124,19 @@
   }
 
   .logoNav {
-    width: 50%;
+    width: 100%;
     padding: 25px 0px 25px 0px;
+  }
+
+  .Nav {
+    display: inline-flex;
+    gap: 45%;
   }
 }
 
 @media (max-width: 425px){
   .logoNav {
-    width: 60%;
+    width: 100%;
     padding: 25px 0px 15px 0px;
   }
 }
