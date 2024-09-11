@@ -112,6 +112,7 @@
       z-index: 3;
       width: 70%;
       height: 40%;
+      -webkit-tap-highlight-color:transparent;
   }
 
   .header a {
