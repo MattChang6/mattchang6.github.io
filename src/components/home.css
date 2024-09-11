@@ -1,10 +1,4 @@
-/*  Primary: #243746 
-    Secondary : #5B6670
-    Pop: #EAFC88
-*/
-
-/* FONTS */
-
+/* General Styles */
 .lato-font {
     font-family: 'Lato', sans-serif;
 }
@@ -13,11 +7,9 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-/* BOX 1 */
 .container {
     margin: 0 auto;
     background-color: #e1edf7;
-    
 }
 
 .background-container {
@@ -25,16 +17,17 @@
     overflow-x: clip;
 }
 
+/* BOX 1 */
 .grid-b1 {
     display: grid;
     max-width: 2000px;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    padding-left: 3.5%;
+
 }
 
 .item1-b1 {
-    padding: 20px;
+    padding: 20px 20px 0px;
 }
 
 .item2-b1 {
@@ -42,10 +35,6 @@
 }
 
 .business-accounting {
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1em;
-    letter-spacing: "";
     font-size: calc(15px + 0.390625vw);
     padding-left: 3.5%;
 }
@@ -58,14 +47,11 @@
 }
 
 .p-text {
-    word-wrap: break-word;
     font-size: calc(12px + 0.390625vw);
     padding-left: 3.5%;
 }
 
 .desk-img {
-    position: relative;
-    display: grid;
     width: 100%;
     height: 100%;
     left: 25px;
@@ -82,18 +68,12 @@
     padding-top: 2em;
     margin-top: 0;
     text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1em;
-    letter-spacing: "";
     font-size: calc(15px + 0.390625vw);
 }
 
 .expert-accounting {
     text-align: center;
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    font-size: calc((1) * 1.2vw + 1rem);
+    font-size: calc(1 * 1.2vw + 1rem);
     padding-bottom: 1em;
 }
 
@@ -112,13 +92,11 @@
 }
 
 .service-logo {
-    display: block;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    width: 25%;
+    min-width: 15%;
+    max-width: 20%;
+    margin: 6% auto 5%;
+    display: flex;
 }
 
 .service-subtitle {
@@ -128,66 +106,46 @@
 }
 
 .star {
-    color: #243746 ;
+    color: #243746;
     font-size: 30px;
-    -webkit-text-stroke: 1px #243746 ;
+    -webkit-text-stroke: 1px #243746;
     letter-spacing: 3px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .service-description {
-    white-space: pre-wrap;
     text-align: center;
     font-size: calc(.1 * 1.2vw + 1rem);
     margin-top: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding: 0% 5% 4%;
 }
 
 .learn-more-btn {
-    border: none;
-    color: white;
     background-color: #2f495e;
+    color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: calc(.01 * 1.2vw + 1rem);
-    cursor: pointer;
     border-radius: 35px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    display: block;
+    max-width: 100px;
+    font-size: calc(.01 * 1.2vw + 1rem);
 }
-
-.a-btn {
-    text-decoration: none;
-    color: white;
-    min-width: 8%;
-    max-width: 10%;
-}
-
 
 /* BOX 3 */
 .about-title {
-    white-space: pre-wrap;
-    font-size: calc((1.5) * 1.2vw + 1rem);
+    font-size: calc(1.5 * 1.2vw + 1rem);
     padding-left: 3.5%;
 }
 
 .business-img-b2 {
-    position: relative;
-    left: 30px;
     width: 100%;
     height: 100%;
 }
 
 /* BOX 4 */
-
 .grid-b4 {
     display: grid;
-    max-width: 2000px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
     padding: 5%;
@@ -197,35 +155,59 @@
     color: black;
     background-color: #e1edf7;
     border-radius: 35px;
-
 }
 
 /* BOX 5 */
 .grid-b5 {
     display: grid;
-    max-width: 2000px;
     grid-template-columns: .7fr 1fr;
     gap: 1rem;
 }
 
-.p-text-b5 {
-    word-wrap: break-word;
-    font-size: calc(12px + 0.390625vw);
-    padding-left: 15.5%;
+/* Mobile-Friendly Styles */
+@media (max-width: 768px) {
+    .grid-b1, .grid-b2, .grid-b5, .grid-b4 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .beyond-balance-sheets, .about-title, .business-accounting, .service-description, .our-services, .expert-accounting {
+        text-align: center;
+    }
+
+    .desk-img, .business-img-b2, .service-logo {
+        width: 100%;
+    }
+
+    .item1-b1, .item1-b2, .item2-b4 {
+        padding: 10px;
+    }
+
+    .learn-more-btn {
+        width: 80%;
+    }
+
+    .service-logo {
+        width: 40%;
+    }
 }
 
-.about-title-b5 {
-    white-space: pre-wrap;
-    font-size: calc((1.5) * 1.2vw + 1rem);
-    padding-left: 15.5%;
-}
+@media (max-width: 425px) {
+    .beyond-balance-sheets, .about-title, .our-services, .expert-accounting {
+        font-size: 1.5rem;
+    }
 
-.business-accounting-b5 {
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1em;
-    letter-spacing: "";
-    font-size: calc(15px + 0.390625vw);
-    padding-left: 15.5%;
-}
+    .service-description {
+        font-size: 1rem;
+    }
 
+    .learn-more-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .service-logo {
+        width: 50%;
+    }
+}

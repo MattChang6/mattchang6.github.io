@@ -12,7 +12,7 @@ export function Contact() {
         </div>       
 
         <div className='contact-center lato-font'>
-            <h2>Mailing Address & Fax</h2>
+            <h2>Mailing Address & Phone</h2>
         </div>
         <div className='contact-center lato-font'>
             <p>
@@ -26,20 +26,20 @@ export function Contact() {
         <h1 className='contact-center lato-font'><br />Our Team</h1>
         <div className='team lato-font'>
             <div>
-                <img src={require('../components/images/img_male.png')} alt="placeholder" className='profile-img' />
-                <h3>Jay Chang</h3>
+                <img src={require('../components/images/jay chang2.jpg')} alt="placeholder" className='profile-img' />
+                <h3 className='employee-name'>Jay Chang, CPA</h3>
+                <h4 className='job-title'>Managing Director</h4>
                 <p><strong>Email: </strong>jayc@jaychangcpa.com</p>
                 <p><strong>Phone: </strong> 818-851-8107</p>
             </div>
             <div>
                 <img src={require('../components/images/img_female.png')} alt="placeholder" className='profile-img' />
-                <h3>Sue Kim</h3>
+                <h3 className='employee-name'>Sue Kim</h3>
+                <h4 className='job-title'>Senior Associate</h4>
                 <p><strong>Email: </strong>suek@jaychangcpa.com</p>
                 <p><strong>Phone: </strong> 818-357-3942</p>
             </div>
         </div><br />
-
-
         </>
     );
 }

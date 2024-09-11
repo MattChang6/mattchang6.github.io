@@ -14,7 +14,7 @@ const Footer = () => {
                     <p className="footer-info"><strong>Phone: </strong>818-851-8107</p>
                     <p className="footer-info"><strong>Fax: </strong>747-202-1979</p>
                 </div>
-                <div className="column">
+                <div className="column link-768">
                     <p className="heading">Links</p>
                     <a className="footer-link" href="/#/">
                         Home
@@ -29,7 +29,7 @@ const Footer = () => {
                         Contact
                     </a>
                 </div>
-                <div className="column">
+                <div className="column upload-768">
                     <p className="heading">Upload Documents</p>
                     <a className="footer-link" href="https://verifyle.com/@jaychangcpa" target="_blank" rel="noreferrer">
                         Verifyle

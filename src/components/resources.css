@@ -23,6 +23,8 @@
 .resource-description{
     text-align: center;
     font-size: calc(20px + 0.390625vw);
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .resource-link {

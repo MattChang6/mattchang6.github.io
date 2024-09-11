@@ -108,9 +108,9 @@ export function Home() {
     <div className='background-container'>
       <div className='container grid-b5'>
         <div className='item1-b1'>
-          <p className='business-accounting-b5 lato-font'>Contact</p>
-          <p className='about-title-b5 lato-font'>Let's Work Together</p>
-          <p className='p-text-b5 roboto-mono-font'>Send a message to find out how we can help you and your business</p>
+          <p className='business-accounting lato-font'>Contact</p>
+          <p className='about-title lato-font'>Let's Work Together</p>
+          <p className='p-text roboto-mono-font'>Send a message to find out how we can help you and your business</p>
         </div>
         <div className='item2'>
           <ContactForm />

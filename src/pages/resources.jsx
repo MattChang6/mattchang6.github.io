@@ -19,7 +19,7 @@ export function Resources() {
                         <a className='resource-link' href='https://www.cdtfa.ca.gov/' target='_blank' rel="noreferrer">https://www.cdtfa.ca.gov/</a></p>
                     </div>
                     <div className='item1-resource'>
-                        <p className='resource-description'>California Secretory of State<br />
+                        <p className='resource-description'>California Secretary of State<br />
                         <a className='resource-link' href='https://www.sos.ca.gov/' target='_blank' rel="noreferrer">https://www.sos.ca.gov/</a></p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ export function Resources() {
                         <a className='resource-link' href='https://www.labor.ca.gov/' target='_blank' rel="noreferrer">https://www.labor.ca.gov/</a></p>
                     </div>
                     <div className='item1-resource'>
-                        <p className='resource-description'>California Employment Development Development Department<br />
+                        <p className='resource-description'>California Employment Development Department<br />
                         <a className='resource-link' href='https://edd.ca.gov/' target='_blank' rel="noreferrer">https://edd.ca.gov/</a></p>
                     </div>
                 </div>
