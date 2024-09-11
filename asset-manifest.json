@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mattchang6.github.io/static/css/main.1569abed.css",
+    "main.css": "/mattchang6.github.io/static/css/main.562491f1.css",
     "main.js": "/mattchang6.github.io/static/js/main.9fc18203.js",
     "static/js/453.dfcb587c.chunk.js": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js",
     "static/media/accounting-desk.jpg": "/mattchang6.github.io/static/media/accounting-desk.f26c2517e1be80ba0884.jpg",
@@ -12,12 +12,12 @@
     "static/media/book.jpg": "/mattchang6.github.io/static/media/book.a17582971af6e67a2d2c.jpg",
     "static/media/handshake.jpg": "/mattchang6.github.io/static/media/handshake.7ef079278520d692d90f.jpg",
     "index.html": "/mattchang6.github.io/index.html",
-    "main.1569abed.css.map": "/mattchang6.github.io/static/css/main.1569abed.css.map",
+    "main.562491f1.css.map": "/mattchang6.github.io/static/css/main.562491f1.css.map",
     "main.9fc18203.js.map": "/mattchang6.github.io/static/js/main.9fc18203.js.map",
     "453.dfcb587c.chunk.js.map": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1569abed.css",
+    "static/css/main.562491f1.css",
     "static/js/main.9fc18203.js"
   ]
 }
