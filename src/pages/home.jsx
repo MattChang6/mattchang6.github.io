@@ -106,7 +106,7 @@ export function Home() {
 
     {/* BOX 5 */}
     <div className='background-container'>
-      <div className='container grid-b5'>
+      <div className='container grid-b1'>
         <div className='item1-b1'>
           <p className='business-accounting lato-font'>Contact</p>
           <p className='about-title lato-font'>Let's Work Together</p>
