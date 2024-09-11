@@ -26,7 +26,7 @@ export function Services() {
                     </ul>
                 </div>
             </div>
-            <div className="each-service background-lb right-align">
+            <div className="each-service background-lb">
                 <div className="title roboto-mono-font">
                     <h2>Tax Services</h2>
                 </div>
