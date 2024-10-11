@@ -33,7 +33,7 @@ export function Contact() {
                 <p><strong>Phone: </strong> 818-851-8107</p>
             </div>
             <div>
-                <img src={require('../components/images/img_female.png')} alt="placeholder" className='profile-img' />
+                <img src={require('../components/images/sue2.jpg')} alt="placeholder" className='profile-img' />
                 <h3 className='employee-name'>Sue Kim</h3>
                 <h4 className='job-title'>Senior Associate</h4>
                 <p><strong>Email: </strong>suek@jaychangcpa.com</p>
