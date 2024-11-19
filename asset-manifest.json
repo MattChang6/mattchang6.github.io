@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mattchang6.github.io/static/css/main.9681a595.css",
-    "main.js": "/mattchang6.github.io/static/js/main.c2ef55b5.js",
-    "static/js/453.dfcb587c.chunk.js": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js",
-    "static/media/accounting-desk.jpg": "/mattchang6.github.io/static/media/accounting-desk.f26c2517e1be80ba0884.jpg",
-    "static/media/sue2.jpg": "/mattchang6.github.io/static/media/sue2.c44009d30f05a5d9bc2e.jpg",
-    "static/media/business.jpg": "/mattchang6.github.io/static/media/business.6582690d027cb0e5a38a.jpg",
-    "static/media/jay chang2.jpg": "/mattchang6.github.io/static/media/jay chang2.40215474fb5265eee25c.jpg",
-    "static/media/JC Primary Logo_7546C.png": "/mattchang6.github.io/static/media/JC Primary Logo_7546C.fc4e8f22824934fce9c4.png",
-    "static/media/JC Primary Logo_white.png": "/mattchang6.github.io/static/media/JC Primary Logo_white.624ccb04fc433a9a7333.png",
-    "static/media/1040.png": "/mattchang6.github.io/static/media/1040.c9d1c214252ef47bd886.png",
-    "static/media/book.jpg": "/mattchang6.github.io/static/media/book.a17582971af6e67a2d2c.jpg",
-    "static/media/handshake.jpg": "/mattchang6.github.io/static/media/handshake.7ef079278520d692d90f.jpg",
-    "index.html": "/mattchang6.github.io/index.html",
-    "main.9681a595.css.map": "/mattchang6.github.io/static/css/main.9681a595.css.map",
-    "main.c2ef55b5.js.map": "/mattchang6.github.io/static/js/main.c2ef55b5.js.map",
-    "453.dfcb587c.chunk.js.map": "/mattchang6.github.io/static/js/453.dfcb587c.chunk.js.map"
+    "main.css": "/static/css/main.9681a595.css",
+    "main.js": "/static/js/main.53f00dec.js",
+    "static/js/453.dfcb587c.chunk.js": "/static/js/453.dfcb587c.chunk.js",
+    "static/media/accounting-desk.jpg": "/static/media/accounting-desk.f26c2517e1be80ba0884.jpg",
+    "static/media/sue2.jpg": "/static/media/sue2.c44009d30f05a5d9bc2e.jpg",
+    "static/media/business.jpg": "/static/media/business.6582690d027cb0e5a38a.jpg",
+    "static/media/jay chang2.jpg": "/static/media/jay chang2.40215474fb5265eee25c.jpg",
+    "static/media/JC Primary Logo_7546C.png": "/static/media/JC Primary Logo_7546C.fc4e8f22824934fce9c4.png",
+    "static/media/JC Primary Logo_white.png": "/static/media/JC Primary Logo_white.624ccb04fc433a9a7333.png",
+    "static/media/1040.png": "/static/media/1040.c9d1c214252ef47bd886.png",
+    "static/media/book.jpg": "/static/media/book.a17582971af6e67a2d2c.jpg",
+    "static/media/handshake.jpg": "/static/media/handshake.7ef079278520d692d90f.jpg",
+    "index.html": "/index.html",
+    "main.9681a595.css.map": "/static/css/main.9681a595.css.map",
+    "main.53f00dec.js.map": "/static/js/main.53f00dec.js.map",
+    "453.dfcb587c.chunk.js.map": "/static/js/453.dfcb587c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9681a595.css",
-    "static/js/main.c2ef55b5.js"
+    "static/js/main.53f00dec.js"
   ]
 }
