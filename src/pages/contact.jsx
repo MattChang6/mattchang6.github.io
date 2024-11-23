@@ -33,6 +33,22 @@ export function Contact() {
                 <p><strong>Phone: </strong> 818-851-8107</p>
             </div>
             <div>
+                <img src={require('../components/images/img_male.png')} alt="placeholder" className='profile-img' />
+                <h3 className='employee-name'>Byung Kim, CPA</h3>
+                <h4 className='job-title'>Director of Accounting</h4>
+                <p><strong>Email: </strong>byungkim@gmail.com</p>
+                <p><strong>Phone: </strong> 818-357-4084</p>
+            </div>
+        </div><br />
+        <div className='team lato-font'>
+            <div>
+                <img src={require('../components/images/min2.png')} alt="placeholder" className='profile-img' />
+                <h3 className='employee-name'>Min Kim, EA</h3>
+                <h4 className='job-title'>Financial Advisor</h4>
+                <p><strong>Email: </strong>min.k@jaychangcpa.com</p>
+                <p><strong>Phone: </strong> 702-374-3843</p>
+            </div>
+            <div>
                 <img src={require('../components/images/sue2.jpg')} alt="placeholder" className='profile-img' />
                 <h3 className='employee-name'>Sue Kim</h3>
                 <h4 className='job-title'>Senior Associate</h4>
