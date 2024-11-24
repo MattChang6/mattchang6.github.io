@@ -34,10 +34,10 @@ export function Contact() {
             </div>
             <div>
                 <img src={require('../components/images/img_male.png')} alt="placeholder" className='profile-img' />
-                <h3 className='employee-name'>Byung Kim, CPA</h3>
+                <h3 className='employee-name'>Byung Cheon Kim, CPA</h3>
                 <h4 className='job-title'>Director of Accounting</h4>
-                <p><strong>Email: </strong>byungkim@gmail.com</p>
-                <p><strong>Phone: </strong> 818-357-4084</p>
+                <p><strong>Email: </strong>byung.k@jaychangcpa.com</p>
+                <p><strong>Phone: </strong> 213-222-6582</p>
             </div>
         </div><br />
         <div className='team lato-font'>
@@ -53,7 +53,7 @@ export function Contact() {
                 <h3 className='employee-name'>Sue Kim</h3>
                 <h4 className='job-title'>Senior Associate</h4>
                 <p><strong>Email: </strong>suek@jaychangcpa.com</p>
-                <p><strong>Phone: </strong> 818-357-3942</p>
+                <p><strong>Phone: </strong> 213-534-7504</p>
             </div>
         </div><br />
         </>
