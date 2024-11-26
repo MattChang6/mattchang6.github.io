@@ -33,7 +33,7 @@ export function Contact() {
                 <p><strong>Phone: </strong> 818-851-8107</p>
             </div>
             <div>
-                <img src={require('../components/images/img_male.png')} alt="placeholder" className='profile-img' />
+                <img src={require('../components/images/byung2.png')} alt="placeholder" className='profile-img' />
                 <h3 className='employee-name'>Byung Cheon Kim, CPA</h3>
                 <h4 className='job-title'>Director of Accounting</h4>
                 <p><strong>Email: </strong>byung.k@jaychangcpa.com</p>
