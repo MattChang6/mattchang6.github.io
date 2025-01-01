@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
+import ReactGA from 'react-ga4';
 import { Route, Routes } from "react-router-dom";
 import { Home } from './pages/home.jsx';
 import { Resources } from './pages/resources.jsx';
@@ -11,6 +12,11 @@ import ScrollToTop from './components/scrollTop';
 import './App.css';
 
 function App() {
+	useEffect(() => {
+		ReactGA.initialize('G-9BV16Q2V1M');
+		ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "App.jsx" });
+	})
+
 	return (
 		<>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>

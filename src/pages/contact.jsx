@@ -27,7 +27,7 @@ export function Contact() {
         <div className='team lato-font'>
             <div>
                 <img src={require('../components/images/jay chang2.jpg')} alt="placeholder" className='profile-img' />
-                <h3 className='employee-name'>Jay Chang, CPA</h3>
+                <h3 className='employee-name'>Jay Chang, CPA, EA</h3>
                 <h4 className='job-title'>Managing Director</h4>
                 <p><strong>Email: </strong>jayc@jaychangcpa.com</p>
                 <p><strong>Phone: </strong> 818-851-8107</p>
