@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
 	useEffect(() => {
-		ReactGA.initialize('G-9BV16Q2V1M');
+		ReactGA.initialize('G-YC39W47NK3');
 		ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "App.jsx" });
 	})
 
