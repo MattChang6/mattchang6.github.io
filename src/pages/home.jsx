@@ -29,29 +29,35 @@ export function Home() {
       <p className='our-services lato-font'>Our Services</p>
       <p className='expert-accounting lato-font'>Expert Accounting Support At<br/>Every Business Stage</p>
       <div className='grid-b2'>
-      <div className='item1-b2'>
-          <img src={require('../components/images/book.jpg')} alt="placeholder" className='service-logo' />
+        <div className='item1-b2'>
+          <a href='#/services'>
+            <img src={require('../components/images/book.jpg')} alt="placeholder" className='service-logo' /> 
+          </a>
           <p className='service-subtitle roboto-mono-font'>Bookkeeping</p>
           <p className='service-description lato-font'>We offer bookkeeping 
             support so that your financial information is recorded correctly and you can relax 
             and focus on what is important to your business</p>
         </div>
         <div className='item1-b2'>
-          <img src={require('../components/images/1040.png')} alt="placeholder" className='service-logo' />
+          <a href='#/services'>
+            <img src={require('../components/images/1040.png')} alt="placeholder" className='service-logo' />
+          </a>
           <p className='service-subtitle roboto-mono-font'>Tax Preparation</p>
           <p className='service-description lato-font'>Taxes are an inescapable fact of life, but they 
             don't have to be a headache.  JC+A can help you navigate existing tax requirements
              and prepare for future tax changes</p>
         </div>
         <div className='item1-b2'>
-          <img src={require('../components/images/handshake.jpg')} alt="placeholder" className='service-logo' />
+          <a href='#/services'>
+            <img src={require('../components/images/handshake.jpg')} alt="placeholder" className='service-logo' />
+          </a>
           <p className='service-subtitle roboto-mono-font'>Consulting</p>
           <p className='service-description lato-font'>We are your partners and trusted advisors who care 
-            about you and your financial goals.  We can free up your time by taking on all the 
+            about your financial goals.  We can free up your time by taking on all the 
             daily, weekly, and yearly financial challenges of running a small business</p>
         </div>
       </div>
-      <a type='button' className='learn-more-btn a-btn lato-font' href='#/services'>Learn More</a>
+      <a type='button' className='learn-more-btn lato-font' href='#/services'>Learn More</a>
     </div>
     
 

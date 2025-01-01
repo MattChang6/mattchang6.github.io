@@ -14,6 +14,13 @@
     margin-top: 0;
 }
 
+.regional-title {
+    text-align: center;
+    font-size: calc(30px + 0.390625vw);
+    color: #243746;
+    margin-top: 0;
+}
+
 .max-width-resource {
     margin-left: auto;
     margin-right: auto;
@@ -87,7 +94,9 @@
 @media screen and (max-width: 768px) {
     .resource-grid {
         grid-template-columns: 1fr;
-        gap: 5.5%;
+        gap: 1em;
+        margin-bottom: 1em;
+        padding-bottom: 0;
     }
 
     .single-resource {
@@ -100,11 +109,13 @@
     }
 
     .resource-title {
-        font-size: calc(24px + 1vw); 
+        font-size: calc(30px + 0.5vw);
+        padding: 1rem;
     }
 
     .item1-resource {
-        padding: 15px; 
+        padding: 0px;
+        margin-bottom: 0;
     }
 
     .margin-bot-0 {
@@ -113,6 +124,11 @@
 
     .pad-bot-0 {
         padding-bottom: 0;
+    }
+
+    .regional-title {
+        margin-top: 8%;
+        margin-bottom: 3%;
     }
 }
 

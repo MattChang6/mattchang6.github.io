@@ -13,18 +13,22 @@ export function Resources() {
                 </div>
             </div>
             <div>
-                <div className='resource-grid lato-font'>
-                <div className='item1-resource margin-bot-0'>
-                        <p className='resource-description'>California Department of Tax and Fee Administration<br />
-                        <a className='resource-link' href='https://www.cdtfa.ca.gov/' target='_blank' rel="noreferrer">https://www.cdtfa.ca.gov/</a></p>
-                    </div>
-                    <div className='item1-resource'>
-                        <p className='resource-description'>California Secretary of State<br />
-                        <a className='resource-link' href='https://www.sos.ca.gov/' target='_blank' rel="noreferrer">https://www.sos.ca.gov/</a></p>
+                <h2 className="regional-title lato-font">Federal Links</h2>
+                <div>
+                    <div className='resource-grid lato-font'>
+                        <div className='item1-resource margin-bot-0'>
+                            <p className='resource-description'>Internal Revenue Service<br />
+                            <a className='resource-link' href='https://www.irs.gov/' target='_blank' rel="noreferrer">https://www.irs.gov/</a></p>
+                        </div>
+                        <div className='item1-resource'>
+                            <p className='resource-description'>Social Security<br />
+                            <a className='resource-link' href='https://www.ssa.gov/' target='_blank' rel="noreferrer">https://www.ssa.gov/</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div>
+                <h2 className="regional-title lato-font">CA State Links</h2>
                 <div className='resource-grid lato-font'>
                     <div className='item1-resource margin-bot-0'>
                         <p className='resource-description'>California Department of Labor<br />
@@ -35,8 +39,16 @@ export function Resources() {
                         <a className='resource-link' href='https://edd.ca.gov/' target='_blank' rel="noreferrer">https://edd.ca.gov/</a></p>
                     </div>
                 </div>
-            </div>
-            <div>
+                <div className='resource-grid lato-font'>
+                <div className='item1-resource margin-bot-0'>
+                        <p className='resource-description'>California Department of Tax and Fee Administration<br />
+                        <a className='resource-link' href='https://www.cdtfa.ca.gov/' target='_blank' rel="noreferrer">https://www.cdtfa.ca.gov/</a></p>
+                    </div>
+                    <div className='item1-resource'>
+                        <p className='resource-description'>California Secretary of State<br />
+                        <a className='resource-link' href='https://www.sos.ca.gov/' target='_blank' rel="noreferrer">https://www.sos.ca.gov/</a></p>
+                    </div>
+                </div>
                 <div className='resource-grid lato-font'>
                     <div className='item1-resource margin-bot-0'>
                         <p className='resource-description'>California Franchise Tax Board<br />
@@ -49,17 +61,19 @@ export function Resources() {
                 </div>
             </div>
             <div>
+                <h2 className="regional-title lato-font">NV State Links</h2>
                 <div className='resource-grid lato-font'>
                     <div className='item1-resource margin-bot-0'>
-                        <p className='resource-description'>Internal Revenue Service<br />
-                        <a className='resource-link' href='https://www.irs.gov/' target='_blank' rel="noreferrer">https://www.irs.gov/</a></p>
+                        <p className='resource-description'>Nevada Department of Taxation<br />
+                        <a className='resource-link' href='https://tax.nv.gov/' target='_blank' rel="noreferrer">https://tax.nv.gov/</a></p>
                     </div>
                     <div className='item1-resource'>
-                        <p className='resource-description'>Social Security<br />
-                        <a className='resource-link' href='https://www.ssa.gov/' target='_blank' rel="noreferrer">https://www.ssa.gov/</a></p>
+                        <p className='resource-description'>Nevada Secretary of State<br />
+                        <a className='resource-link' href='https://www.nvsos.gov/sos' target='_blank' rel="noreferrer">https://www.nvsos.gov/sos</a></p>
                     </div>
                 </div>
             </div>
+
             </div>
         </div>
         </>

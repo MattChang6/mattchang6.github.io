@@ -88,19 +88,21 @@
 .item1-b2 {
     background-color: #2f495e;
     border-radius: 35px;
+    text-align: center;
 }
 
 .service-logo {
     border-radius: 50%;
-    min-width: 15%;
-    max-width: 20%;
-    margin: 6% auto 5%;
-    display: flex;
+    min-width: 20%;
+    max-width: 25%;
+    margin: 6% auto 0%;
+    display: inline-block;
 }
 
 .service-subtitle {
     text-align: center;
     font-size: calc(.5 * 1.2vw + 1rem);
+    margin-top: 4%;
     margin-bottom: 0;
 }
 
@@ -129,6 +131,11 @@
     display: block;
     max-width: 100px;
     font-size: calc(.01 * 1.2vw + 1rem);
+    text-decoration: none;
+}
+
+.learn-more-btn:hover {
+    text-decoration: underline;
 }
 
 /* BOX 3 */
