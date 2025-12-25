@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d55828ca.css",
+    "main.js": "/static/js/main.2f6cecd7.js",
+    "static/js/453.dfcb587c.chunk.js": "/static/js/453.dfcb587c.chunk.js",
+    "static/media/byung2.png": "/static/media/byung2.fbfdd956614abd9ec6f2.png",
+    "static/media/min2.png": "/static/media/min2.857b1106a924dc39b899.png",
+    "static/media/accounting-desk.jpg": "/static/media/accounting-desk.f26c2517e1be80ba0884.jpg",
+    "static/media/sue2.jpg": "/static/media/sue2.c44009d30f05a5d9bc2e.jpg",
+    "static/media/business.jpg": "/static/media/business.6582690d027cb0e5a38a.jpg",
+    "static/media/jay chang2.jpg": "/static/media/jay chang2.40215474fb5265eee25c.jpg",
+    "static/media/JC Primary Logo_7546C.png": "/static/media/JC Primary Logo_7546C.fc4e8f22824934fce9c4.png",
+    "static/media/JC Primary Logo_white.png": "/static/media/JC Primary Logo_white.624ccb04fc433a9a7333.png",
+    "static/media/1040.png": "/static/media/1040.c9d1c214252ef47bd886.png",
+    "static/media/book.jpg": "/static/media/book.a17582971af6e67a2d2c.jpg",
+    "static/media/handshake.jpg": "/static/media/handshake.7ef079278520d692d90f.jpg",
+    "index.html": "/index.html",
+    "main.d55828ca.css.map": "/static/css/main.d55828ca.css.map",
+    "main.2f6cecd7.js.map": "/static/js/main.2f6cecd7.js.map",
+    "453.dfcb587c.chunk.js.map": "/static/js/453.dfcb587c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d55828ca.css",
+    "static/js/main.2f6cecd7.js"
+  ]
+}
