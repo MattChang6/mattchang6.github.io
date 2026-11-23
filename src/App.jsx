@@ -7,8 +7,9 @@ import { Home } from './pages/home.jsx';
 import { Resources } from './pages/resources.jsx';
 import { Contact } from './pages/contact.jsx';
 import { Services } from './pages/services.jsx';
-import { Construction } from './pages/construction.jsx';
+//import { Construction } from './pages/construction.jsx';
 import ScrollToTop from './components/scrollTop';
+//import Slider from "react-slick";
 import './App.css';
 
 function App() {

@@ -22,7 +22,6 @@
     max-width: 2000px;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-
 }
 
 .item1-b1 {
@@ -79,6 +78,15 @@
 .grid-b2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.grid-b25 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -152,9 +160,11 @@
 /* BOX 4 */
 .grid-b4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 2000px;
+    grid-template-columns: .5fr 1.5fr;
     gap: 3rem;
-    padding: 5%;
+    padding: 2% 5% 0% 2%;
+    margin: 0 auto;
 }
 
 .item2-b4 {
@@ -162,6 +172,7 @@
     background-color: #e1edf7;
     border-radius: 35px;
 }
+
 
 /* BOX 5 */
 .grid-b5 {
@@ -172,13 +183,25 @@
 
 /* Mobile-Friendly Styles */
 @media (max-width: 768px) {
-    .grid-b1, .grid-b2, .grid-b5, .grid-b4 {
+
+    .grid-b1, .grid-b2, .grid-b5, .grid-b25 {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
+    .grid-b4 {
+        grid-template-columns: 1fr;
+        gap: 0rem;
+        padding: 0% 2% 0% 2%;
+    }
+
+    .beyond-balance-sheets{
+        padding-top: 2%;
+    }
+
     .beyond-balance-sheets, .about-title, .business-accounting, .service-description, .our-services, .expert-accounting {
         text-align: center;
+        padding-left: 0%;
     }
 
     .desk-img, .business-img-b2, .service-logo {
@@ -195,6 +218,20 @@
 
     .service-logo {
         width: 40%;
+    }
+
+    .about-title {
+        padding-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .business-accounting{
+        padding-left: 0%;
+    }
+
+    .service-description {
+        padding: 0 4%;
     }
 }
 
@@ -213,7 +250,25 @@
         width: 100%;
     }
 
+    .our-services {
+        padding-top: 5%;
+    }
+
     .service-logo {
         width: 50%;
+    }
+
+    .learn-more-btn {
+        margin-top: 2%;
+    }
+
+    .about-title {
+        padding-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .business-accounting{
+        padding-left: 0%;
     }
 }

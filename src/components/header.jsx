@@ -25,7 +25,7 @@ const Header = () => {
                         <Link to="/" onClick={closeMobileMenu} className="home-btn">HOME</Link>
                         <Link to="/services" onClick={closeMobileMenu}>SERVICES</Link>
                         <Link to="/resources" onClick={closeMobileMenu}>RESOURCES</Link>
-                        <Link to="/Contact" onClick={closeMobileMenu}>CONTACT</Link>
+                        <Link to="/contact" onClick={closeMobileMenu}>CONTACT</Link>
                     </div>
                     <div className="hamburger" onClick={toggleMobileMenu}>
                         &#9776; {/* Hamburger icon */}

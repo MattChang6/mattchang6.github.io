@@ -4,6 +4,7 @@ import HCaptcha from '@hcaptcha/react-hcaptcha';
 import './contactForm.css';
 import { phoneFormat } from './phone.js';
 
+
 const ContactForm = () => {
     const [phone, setPhone] = useState(""); // State to store phone input
     const [captchaToken, setCaptchaToken] = useState(""); // State to store captcha token
@@ -13,7 +14,7 @@ const ContactForm = () => {
     // Handle form submission
     const onSubmit = async (event) => {
         event.preventDefault();
-    
+
         if (!isCaptchaVerified) {
             Swal.fire({
                 title: "Captcha Required",
@@ -23,15 +24,15 @@ const ContactForm = () => {
             });
             return;
         }
-    
+
         const formData = new FormData(event.target);
-    
+
         formData.append("access_key", "2c837d43-8d0e-4e23-b3cc-9a613e63b083");
         formData.append("h-captcha-response", captchaToken); // Append captcha token to form
-    
+
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
-    
+
         try {
             const res = await fetch("https://api.web3forms.com/submit", {
                 method: "POST",
@@ -41,7 +42,7 @@ const ContactForm = () => {
                 },
                 body: json
             }).then((res) => res.json());
-    
+
             if (res.success) {
                 Swal.fire({
                     title: "Thank You!",
@@ -67,7 +68,7 @@ const ContactForm = () => {
             captchaRef.current.resetCaptcha(); // Reset captcha on error
         }
     };
-    
+
     // Handle phone input change and format
     const handlePhoneChange = (e) => {
         const formattedPhone = phoneFormat(e.target.value); // Format the phone input
@@ -87,53 +88,63 @@ const ContactForm = () => {
     };
 
     return (
-<section className='contact'>
-    <form onSubmit={onSubmit}>
-        <div className='name-fields lato-font'>
-        <div className='name-box lato-font'>
-    <div>
-        <label>First Name*</label>
-        <input type='text' className='field' placeholder='First Name' name='First Name' required />
-    </div>
-    <div>
-        <label>Last Name*</label>
-        <input type='text' className='field' placeholder='Last Name' name='Last Name' required />
-    </div>
-</div>
+        <section className='contact'>
+            <form onSubmit={onSubmit}>
+                <div className='name-fields lato-font'>
+                    <div className='name-box lato-font'>
+                        <div>
+                            <label>First Name*</label>
+                            <input type='text' className='field' placeholder='First Name' name='First Name' required />
+                        </div>
+                        <div>
+                            <label>Last Name*</label>
+                            <input type='text' className='field' placeholder='Last Name' name='Last Name' required />
+                        </div>
+                    </div>
 
-        </div>
-        <div className='input-box lato-font'>
-            <label>Email Address*</label>
-            <input type='email' className='field' placeholder='Enter your email' name='email' required />
-        </div>
-        <div className='input-box lato-font'>
-            <label>Phone Number*</label>
-            <input
-                type='tel'
-                className='field'
-                placeholder='(123) 456-7890'
-                name='phone'
-                value={phone}
-                onChange={handlePhoneChange} 
-                pattern='\([0-9]{3}\) [0-9]{3}-[0-9]{4}'
-                required
-            />
-        </div>
-        <div className='input-box lato-font'>
-            <label>Your Message*</label>
-            <textarea name='message' className='message' placeholder='Enter your message' required />
-            <p>* Required</p>
-        </div>
-        <HCaptcha
-            sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-            onVerify={handleCaptchaSuccess}
-            onExpire={handleCaptchaExpire} // Handle expiration
-            reCaptchaCompat={false}
-            ref={captchaRef} // Ref to reset captcha
-        />
-        <button type='submit' className='lato-font' disabled={!isCaptchaVerified}>Send</button>
-    </form>
-</section>
+                </div>
+                <div className='input-box lato-font'>
+                    <label>Email Address*</label>
+                    <input type='email' className='field' placeholder='Enter your email' name='email' required />
+                </div>
+                <div className='input-box lato-font'>
+                    <label>Phone Number*</label>
+                    <input
+                        type='tel'
+                        className='field'
+                        placeholder='(123) 456-7890'
+                        name='phone'
+                        value={phone}
+                        onChange={handlePhoneChange}
+                        pattern='\([0-9]{3}\) [0-9]{3}-[0-9]{4}'
+                        required
+                    />
+                </div>
+                <div className='input-box lato-font'>
+                    <label>Address*</label>
+                    <input
+                        type='text'
+                        className='field'
+                        placeholder='Address'
+                        name='address'
+                        required
+                    />
+                </div>
+                <div className='input-box lato-font'>
+                    <label>Your Message*</label>
+                    <textarea name='message' className='message' placeholder='Enter your message' required />
+                    <p>* Required</p>
+                </div>
+                <HCaptcha
+                    sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
+                    onVerify={handleCaptchaSuccess}
+                    onExpire={handleCaptchaExpire} // Handle expiration
+                    reCaptchaCompat={false}
+                    ref={captchaRef} // Ref to reset captcha
+                />
+                <button type='submit' className='lato-font' disabled={!isCaptchaVerified}>Send</button>
+            </form>
+        </section>
 
 
     );

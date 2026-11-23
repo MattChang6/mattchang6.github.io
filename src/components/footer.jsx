@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <h4 className="copyright">&#169;2025 Jay Chang & Associates</h4>
+            <h4 className="copyright">&#169;2027 Jay Chang & Associates</h4>
         </div>
     );
 };

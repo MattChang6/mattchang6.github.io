@@ -5,7 +5,7 @@ export function Contact() {
     return (
         <>
         <div>
-            <h1 className='contact-title lato-font'>Contact</h1>
+            <h1 className='contact-title lato-font'><strong>Contact</strong></h1>
         </div>
         <div className='form-background'>
             <ContactForm />

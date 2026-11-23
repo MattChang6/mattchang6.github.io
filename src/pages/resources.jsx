@@ -4,7 +4,7 @@ export function Resources() {
     return (
         <>
         <div>
-            <h1 className="resource-title lato-font">Resources</h1>
+            <h1 className="resource-title lato-font"><strong>Resources</strong></h1>
             <div className='max-width-resource'>
             <div>
                 <div className='item1-resource single-resource lato-font'>
@@ -60,7 +60,7 @@ export function Resources() {
                     </div>
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <h2 className="regional-title lato-font">NV State Links</h2>
                 <div className='resource-grid lato-font'>
                     <div className='item1-resource margin-bot-0'>
@@ -72,7 +72,7 @@ export function Resources() {
                         <a className='resource-link' href='https://www.nvsos.gov/sos' target='_blank' rel="noreferrer">https://www.nvsos.gov/sos</a></p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             </div>
         </div>
